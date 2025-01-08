@@ -1,7 +1,8 @@
 from textnode import TextNode, TextType
+from htmlnode import HTMLNode, LeafNode
 
 def main():
-    print(TextNode("This is a text node", TextType.BOLD, "https://www.boot.dev)"))
+    pass
 
 if __name__ == "__main__":
     main()
